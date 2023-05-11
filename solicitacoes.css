@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px 20px 20px 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    height: 10vh;
+    background: linear-gradient(-105deg, #014a66, #005678 );
+    padding: 10px;
+}
+
+.icone{
+    display: flex;
+    flex-direction: row;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background: url(certificados.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+    }
+        #login-container {
+            background-color: #10101087;
+            margin-left: 1vh;
+            margin-right: 1vh;
+            margin-top: 5vh;
+            text-align: center;
+            border-radius: 20px;
+        }
+ 
+        #nomelogos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            padding-left:10px;
+            padding-top: 10px;
+        }
+
+        .fimpag{
+            margin-top: 5vh;
+            font-size: 25px;
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        table{
+            color: white;
+            font-size: 1rem;
+            
+        }
+        tr{
+            color: white;
+        }
+        td{
+            color: white;
+        }
+        h4{
+            font-weight: bold;
+            font-size: 1.45rem;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+            margin-right: 1.5rem;
+        }
+        h1{
+            font-size: 3.5rem;
+            color: #58d0ff;
+            font-weight: bold
+        }
+
+        @media (max-width: 1080px){
+            td:nth-child(3){
+                display: none;
+            }
+            th:nth-child(3){
+                display: none;
+            }
+            td:nth-child(1){
+                display: none;
+            }
+            th:nth-child(1){
+                display: none;
+            }
+            #login-container {
+                width: 50%;
+            }
+
+        }
+        @media (max-width: 660px){
+            h4{
+                display: none;
+            }
+            h1{
+                font-size: 2.5rem;
+            }
+            #login-container {
+                width: 60%;
+            }
+        }
+

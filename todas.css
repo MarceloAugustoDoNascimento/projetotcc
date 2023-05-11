@@ -1,0 +1,45 @@
+@media (max-width: 1300px){
+
+    td:nth-child(5){
+        display: none;
+    }
+    th:nth-child(5){
+        display: none;
+    }
+}
+@media (max-width: 1000px){
+
+    td:nth-child(4){
+        display: none;
+    }
+    th:nth-child(4){
+        display: none;
+    }
+}
+@media (max-width: 850px){
+
+    td:nth-child(6){
+        display: none;
+    }
+    th:nth-child(6){
+        display: none;
+    }
+}
+@media (max-width: 750px){
+
+    td:nth-child(7){
+        display: none;
+    }
+    th:nth-child(7){
+        display: none;
+    }
+}
+@media (max-width: 660px){
+
+    td:nth-child(2){
+        display: none;
+    }
+    th:nth-child(2){
+        display: none;
+    }
+}

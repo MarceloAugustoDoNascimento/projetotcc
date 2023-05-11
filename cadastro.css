@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    height: 10vh;
+    background: linear-gradient(-105deg, #014a66, #005678 );
+    padding: 10px;
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+}
+.fimpag{
+    margin-top: 5vh;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nomelogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-left:10px;
+    padding-top: 10px;
+}
+body {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to right, #005678, rgb(0, 30, 53));
+        background-color:#000000;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        align-items: center;
+        justify-content: center;
+        
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+            margin-right: 1.5rem;
+        }
+        h1{
+            font-size: 3.5rem;
+            color: #58d0ff;
+            font-weight: bold;
+        }
+        h4{
+            font-weight: bold;
+            font-size: 1.45rem;
+        }
+        #login-container {
+            display: flex;
+            flex-direction: column;
+            background-color: #10101087;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5vh;
+            padding: 20px 30px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+        label {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            text-align: left;
+            font-size: 20px;
+            color: white;
+            margin-top: 15px;
+        }
+        .marginInput {
+            margin-bottom: 20px;
+        }
+        input {
+            border: 1px solid;
+            padding: 5px;
+            padding-left: 10px;
+            width: 80%;
+            font-size: 20px;
+            border-radius: 5px 5px 5px 5px;
+        }
+        input[type="submit"] {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            height: 50px;
+            width: 30%;
+            border-radius: 5px;
+            line-height: 20px;
+            color: white;
+            border: none;
+            background-color: #58d0ff;
+            cursor: pointer;
+            margin-top: 40px;
+    
+            }
+        input[type="submit"]:hover {
+            background-color: #005c81;
+            transition: .5s;
+        }
+        .leftspan {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            text-align: left;
+            font-size: 1rem;
+            color: red;
+            visibility: hidden;
+            
+        }
+        #leftspanpadrao {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            text-align: left;
+            font-size: 1rem;
+            color: rgb(158, 156, 156);
+            
+        }
+        #nomelogo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left:10px;
+
+        }
+            tr{
+                color:rgb(132, 132, 132);
+                font-size: 12px;
+            }
+            .box-table{
+                width: 75%;
+            }
+            table{
+                color: rgb(132, 132, 132);
+                font-size: 20px;
+                
+            }
+            td{
+                color: rgb(132, 132, 132);
+            }
+            select {
+                border-radius: 5px;
+                font-size: 20px;
+                width: 80%;
+                height: 42px;
+            
+                         
+            } 
+            .subtitulo{
+                color: white;
+                font-size: 1.5rem;
+            } 
+            @media (max-width: 1370px) { 
+                #login-container {
+                 width: 60%;   
+                }
+            }
+            @media (max-width: 1160px) { 
+                #login-container {
+                 width: 70%;   
+                }
+            }
+            @media (max-width: 990px) { 
+                #login-container {
+                 width: 75%;   
+                }
+            }
+            @media (max-width: 900px) {
+                h1{
+                    font-size: 3rem;
+                }
+                .subtitulo{
+                    font-size: 1rem;   
+                }
+                input[type="submit"] {
+                    width: 35%;
+                    font-size: 1.2rem;
+                }
+            }
+            @media (max-width: 750px) {
+                h1{
+                    font-size: 2rem;
+                }
+                label {
+                    font-size: 1rem;
+                }
+                a{
+                    font-size: 1.2rem;
+                }
+                input[type="submit"] {
+                    font-size: 1.2rem;
+                    height: 45px;
+                } 
+            }
+            @media (max-width: 600px) {
+                h4{
+                    display: none;
+                }
+                h1{
+                    font-size: 1.5rem;
+                }
+                #leftspanpadrao {
+                    font-size: 0.7rem;
+                }
+                input[type="submit"] {
+                    width: 40%;
+                    font-size: 1rem;
+                    height: 40px;
+                }
+                label {
+                    font-size: 0.7rem;
+                }
+                input {
+                    font-size: 1rem;
+                }
+                select {
+                    font-size: 1rem;
+                    height: 35px;
+                }
+
+            }

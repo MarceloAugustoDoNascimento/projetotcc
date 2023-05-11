@@ -1,0 +1,11 @@
+body{
+    background-color: #c0c038;
+}
+img{
+    width: 150px; 
+    height: 150px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}

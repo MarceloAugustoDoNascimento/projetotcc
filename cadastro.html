@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastrar.js" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="partea">
+        <div class="graybox">
+            <img src="C:\Users\Usuario\Downloads\LAB QI.png"></img>
+        </div>
+        <div class="graybox" style="justify-content: flex-end;">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="login.html"style="font-weight: bold;">Entrar</a></li>
+            </ul>
+        </div>
+    </div>
+        <div id="login-container" style="width: 800px;" >
+            <h1 style="font-size: 60px; color: #524a9b;">Cadastre-se</h1>
+            <span style="font-size: 24px;color: white;"> Com a sua conta, você poderá gerenciar sua coleções de flash cards.</span>
+            <div id="erro"></div>
+            <div id="sucesso"></div>
+            <form action="enviar.php" method="POST">
+                <label id="labelnome" for="nome" style="margin-top: 0px;">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Insira seu nome completo" required></input>
+                <label id="labelemail" for="e-mail">E-mail</label>
+                <input id="email" name="e-mail" type="email" placeholder="Insira o seu E-mail" required></input>
+                <label id="labelsenha1" for="Senha">Senha</label>
+                <input id="senha1" name="senha1" type="password" required></input>
+                <span id="leftspanpadrao">Use ao menos 8 caracteres contendo letras, numeros e ao menos um caracter especial.</span>  
+                <label id="labelsenha2" for="repSenha">Repetir a senha</label>
+                <input id="senha2" name="senha2" type="password" required></input>
+                <span id="leftspan" class="leftspan">Senha não confere</span> 
+                <input id="verif" name="verif" type="text"></input>
+                
+            </form>
+            <button class="cadast" onclick="cadastro()">Cadastrar</button>  
+            
+        </div>   
+</body>
+</html>
